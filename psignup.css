@@ -1,0 +1,35 @@
+.signupcont{
+    position: absolute;
+   display: grid;
+   flex-direction: column;
+   width: 700px;
+height: 350px;
+
+background: linear-gradient(90deg, rgba(240, 229, 229, 0.25) -0.61%, rgba(196, 195, 195, 0.25) 99.39%);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+/* justify-content: center;
+align-items: center; */
+margin-left: 25%;
+grid-template-rows: minmax(3,auto);
+grid-template-columns: 1fr 1fr  ;
+gap: 20px;
+padding-left: 30px;
+padding-top: 30px;
+
+
+}
+.textfield{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 45%;
+}
+#btnpsignup{
+    width: 150px;
+height: 25px;
+border-radius: 10px;
+margin-left: 240px;
+}
